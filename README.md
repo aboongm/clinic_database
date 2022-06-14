@@ -27,16 +27,10 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
-- Clone GitHub repository `gh repo clone SaidRasinlic/Vet-Clinic-Database`
+- Clone GitHub repository `gh repo clone aboongm/clinic_database`
 
 
 ## Authors
-
-👤 **Said Rasinlic**
-
-- GitHub: [@GitHub/SaidRasinlic](https://github.com/SaidRasinlic)
-- Twitter: [@Twitter/SaidRasinlic](https://twitter.com/SaidRasinlic)
-- LinkedIn: [@LinkedIn/SaidRasinlic](https://www.linkedin.com/in/SaidRasinlic)
 
 
 👤 **Ranjit Luwang**
@@ -45,6 +39,11 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@John_luang1](https://twitter.com/John_luang1)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/aboongm)
 
+👤 **Said Rasinlic**
+
+- GitHub: [@GitHub/SaidRasinlic](https://github.com/SaidRasinlic)
+- Twitter: [@Twitter/SaidRasinlic](https://twitter.com/SaidRasinlic)
+- LinkedIn: [@LinkedIn/SaidRasinlic](https://www.linkedin.com/in/SaidRasinlic)
 
 
 ## 🤝 Contributing

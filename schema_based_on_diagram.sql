@@ -24,3 +24,10 @@ CREATE TABLE invoices (
 	FOREIGN KEY (medical_histories_id) REFERENCES medical_histories(id)
 );
 
+/* Create treatments tables */
+
+CREATE TABLE treatments (
+	id SERIAL PRIMARY KEY,
+	type VARCHAR,
+	name VARCHAR
+);

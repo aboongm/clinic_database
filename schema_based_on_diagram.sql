@@ -13,3 +13,14 @@ CREATE TABLE medical_histories (
 	status VARCHAR,
 	FOREIGN KEY (patient_id) REFERENCES patients (id)
 );
+
+/* Create invoices table */
+CREATE TABLE invoices (
+	id SERIAL PRIMARY KEY,
+	total_amount DECIMAL,
+	generated_at TIMESTAMP,
+	payed_at TIMESTAMP,
+	medical_histories_id INT,
+	FOREIGN KEY (medical_histories_id) REFERENCES medical_histories(id)
+);
+

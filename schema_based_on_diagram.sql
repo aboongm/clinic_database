@@ -44,3 +44,14 @@ CREATE TABLE invoice_items (
 	FOREIGN KEY (invoice_id) REFERENCES invoices(id),
 	FOREIGN KEY (treatment_id) REFERENCES treatments(id)
 );
+
+/* Create join tables - treatment_histories table */
+CREATE TABLE treatment_histories (
+	id SERIAL PRIMARY KEY,
+	medical_history_id INT,
+	treatment_id INT,
+	FOREIGN KEY (medical_history_id) REFERENCES medical_histories(id) 
+	ON DELETE RESTRICT ON UPDATE CASCADE,
+	FOREIGN KEY (treatment_id) REFERENCES treatments(id)
+	ON DELETE RESTRICT ON UPDATE CASCADE
+);

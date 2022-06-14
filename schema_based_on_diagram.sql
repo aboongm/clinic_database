@@ -59,3 +59,4 @@ CREATE TABLE treatment_histories (
 /* Create NON-CLUSTERED INDEXES */
 
 CREATE INDEX patient_id_asc ON medical_histories (patient_id ASC);
+CREATE INDEX medical_history_id_asc ON invoices (medical_histories_id ASC);
